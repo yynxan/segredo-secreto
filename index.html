@@ -210,22 +210,23 @@
         @media (max-width: 768px) {
             html,
             body {
-                justify-content: center !important;
                 align-items: center !important;
-                padding: 20px !important;
-                overflow: visible !important;
+                padding: 10px !important;
+                overflow: hidden !important;
+                height: 100vh;
             }
 
             #main-content,
             #main-content.visible {
-                justify-content: center !important;
+                justify-content: space-around !important;
+                height: 100%;
             }
 
             #cake {
-                width: 70vw !important;
-                max-width: 300px !important;
+                width: 65vw !important;
+                max-width: 280px !important;
                 margin-top: 0 !important;
-                margin-bottom: 10px !important;
+                margin-bottom: 5px !important;
                 position: relative !important;
                 z-index: 2 !important;
                 display: block !important;
@@ -235,10 +236,20 @@
             .text {
                 text-align: center !important;
                 max-width: 90vw !important;
-                margin: 0 0 20px 0 !important;
+                margin: 0 0 10px 0 !important;
                 user-select: none;
                 z-index: 2 !important;
                 order: 3;
+            }
+
+            .text h1 {
+                font-size: 1.8em !important;
+            }
+            #msg2 {
+                font-size: 2.2em !important;
+            }
+            #msg3 {
+                font-size: 1.9em !important;
             }
 
             .flower-container {
@@ -261,12 +272,12 @@
 
             .flower-right {
                 order: 4;
-                margin-top: 15px !important;
+                margin-top: 10px !important;
             }
 
             .emoji-flower {
                 font-size: 2.5em !important;
-                margin: 0 15px !important;
+                margin: 0 10px !important;
                 animation: none !important;
                 opacity: 1 !important;
             }
@@ -348,7 +359,8 @@
                                 M173.667-15.929c-46.512,0-105.486,0-147.334,0c-3.999,0-4-16.002,0-16.002
             c43.566,0,97.96,0,147.334,0C177.667-31.931,177.666-15.929,173.667-15.929z
                                 ;
-                                M173.434,445.393c-47.269,8.001-105.245,8.001-147.334,0c-3.929-0.747-0.692-16.543,3.243-15.824
+                                M173.434,445.393c-47.269,8.001-105.245,8.001-147.334,0
+            c-3.929-0.747-0.692-16.543,3.243-15.824
             c43.828,8.001,92.165,8.001,140.739,0C174.029,428.918,177.377,444.726,173.434,445.393z
                                 ;
                                 M173.667,449.514c-47.576-5.454-102.799-5.744-147.333,0c-3.966,0.512-3.938-15.297,0-16.002
